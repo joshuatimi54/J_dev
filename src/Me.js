@@ -3,7 +3,7 @@ import Mypic from './image/man5_big.jpg';
 
 const Me = () => {
     return ( 
-        <div className='me'>
+        <div id='Resume' className='me'>
             <div>
                 <img className='mypic' src={Mypic} alt="My pics" />
             </div>
