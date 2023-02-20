@@ -1,0 +1,205 @@
+/* -------------------------------------
+Style 
+--------------------------------------*/
+
+/* -------------------------------------
+=> colors
+=> Button
+=> General
+=> header
+=> menu bar
+=> Home
+=> Services
+=> About
+=> plan
+=> our works
+=> porfolio
+=> hello
+=> Contact form
+=> footer
+--------------------------------------*/
+
+/*-- Import CSS --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* -------------------------------------
+colors
+--------------------------------------*/
+:root {
+  --tc: rgb(255, 255, 255);
+  --bg: rgba(255, 255, 255, 0.3);
+  --nw: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
+  --bc1: rgb(0, 0, 0);
+  --bc2: rgb(120, 204, 109);
+  --lay: rgb(255,255,255, 0.4);
+  --bgb: rgb(0,0,0,0.8);
+}
+
+/*--------------------------------------
+General 
+--------------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--nw);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page {
+  margin: 2.5%;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0px;
+}
+
+li a, a {
+  text-decoration: none;
+  font-size: smaller;
+  color: var(--bc1);
+}
+
+.ct {
+  color: var(--bc2);
+}
+
+.lay1 {
+  background-color: var(--lay);
+  border: 1px solid var(--lay);
+}
+
+
+.lay2 {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.lay3 {
+  padding: 2px 5px;
+  background-color: var(--bc2);
+  color: white;
+  border-radius: 5px
+}
+
+.no-padding {
+  padding: 0%;
+}
+
+.hidden {
+  display: none;
+}
+
+.equal-flex {
+  flex: 50%;
+}
+
+/*--------------------------------------
+Button 
+--------------------------------------*/
+
+button {
+  background-color: var(--bc2);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+
+/*--------------------------------------
+Header 
+--------------------------------------*/
+
+
+.navbar {
+  margin-left: 0px;
+  position: sticky;
+}
+
+.navbar svg {
+  width: 25px;
+  color: var(--bc1);
+}
+
+.navbar ul {
+  padding: 0px;
+  width: 100%;
+}
+
+.icons::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.top-border-radius {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.bottom-border-radius {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+/*--------------------------------------
+Home  
+--------------------------------------*/
+img.mypic {
+  max-width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  z-index: -1;
+}
+
+.left-rotate {
+  margin: 0px;
+  margin-top: -8px;
+  flex: 50%;
+    height: 50px;
+    background-color: white;
+    z-index: 1;
+    transform: rotatez(5deg);
+    border-bottom-left-radius: 20px;
+}
+
+.right-rotate {
+  margin: 0px;
+  margin-top: -8px;
+  flex: 50%;
+  height: 50px;
+  background-color: white;
+  z-index: 1;
+  transform: rotatez(-5deg);
+  border-bottom-right-radius: 20px;
+}
+
+#name {
+  z-index: 5;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+/*--------------------------------------
+About  
+--------------------------------------*/
+.About {
+  max-width: 550px;
+}
+
+
+/*--------------------------------------
+Client 
+--------------------------------------*/
+
+.client {
+  
+}
