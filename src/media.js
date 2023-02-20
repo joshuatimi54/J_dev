@@ -5,7 +5,7 @@ const Content = () => {
             <div id="Work" className="name">Adesoba</div>
             <div className="site text-center">
                 <ul>
-                    <li><a href="http://www.linkedin.com/in/joshua-adesoba-9144bb232"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                    
                     <li>
                         <a href="http://">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
