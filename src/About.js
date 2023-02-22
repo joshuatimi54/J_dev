@@ -1,3 +1,5 @@
+import Client from './client';
+
 const About = () => {
     return ( 
         <div id='About' className="About p-3 mt-3 rounded-3 lay1 row ">
@@ -47,6 +49,7 @@ const About = () => {
                     <p>Developing memorable and unique mobile android, ios and video games.</p>
                 </div>
             </div>
+            <div><Client /></div>
         </div>
      );
 }

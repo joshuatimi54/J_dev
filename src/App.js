@@ -11,7 +11,7 @@ function App() {
       <div className='no-padding'>
         <Navbar />
       </div>
-      <div className='no-padding bg-white rounded-3 lay1'>
+      <div className='page1 no-padding bg-white rounded-3 lay1'>
           <div><Me /></div>     
           <div><Media /></div>     
         </div>

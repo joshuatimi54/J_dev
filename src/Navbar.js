@@ -1,4 +1,4 @@
-// import './main';
+ import './main';
 
 const Navbar = () => {
     return (
@@ -9,7 +9,7 @@ const Navbar = () => {
                     <a href="https://wa.me/message/TBTYBWC3YLNUK1"><button>Hire</button></a>
                 </div>
             </div>
-            <nav className="navbar bottom-border-radius lay1">
+            <nav id="topbar" className="navbar bottom-border-radius lay1">
             <ul className="d-flex ">
                 <li className="lay2">
                    <a href="#About">

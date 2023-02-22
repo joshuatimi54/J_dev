@@ -106,7 +106,7 @@ Button
 button {
   background-color: var(--bc2);
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 16px;
 }
 
@@ -115,10 +115,16 @@ button {
 Header 
 --------------------------------------*/
 
+#topbar {
+  padding: 0.42rem;
+  z-index: 3;
+}
 
 .navbar {
   margin-left: 0px;
   position: sticky;
+  overflow: hidden;
+  
 }
 
 .navbar svg {
@@ -129,6 +135,8 @@ Header
 .navbar ul {
   padding: 0px;
   width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .icons::after {
@@ -181,7 +189,7 @@ img.mypic {
 }
 
 #name {
-  z-index: 5;
+  z-index: 1;
   position: relative;
   text-align: center;
   margin-top: 5px;
