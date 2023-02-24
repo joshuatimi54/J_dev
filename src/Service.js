@@ -10,7 +10,7 @@ const Service = () => {
                 </div>
                 <h3 class="title">Web Design</h3>
                 <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-                <a href="#" class="read-more">Read More</a>
+                <a href="#About" class="read-more">Read More</a>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -20,7 +20,7 @@ const Service = () => {
                 </div>
                 <h3 class="title">Web Development</h3>
                 <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-                <a href="#" class="read-more">Read More</a>
+                <a href="#About" class="read-more">Read More</a>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -30,7 +30,7 @@ const Service = () => {
                 </div>
                 <h3 class="title">Responsive Design</h3>
                 <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-                <a href="#" class="read-more">Read More</a>
+                <a href="#About" class="read-more">Read More</a>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -40,7 +40,7 @@ const Service = () => {
                 </div>
                 <h3 class="title">Brand Building</h3>
                 <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-                <a href="#" class="read-more">Read More</a>
+                <a href="#About" class="read-more">Read More</a>
             </div>
         </div>
     </div>
