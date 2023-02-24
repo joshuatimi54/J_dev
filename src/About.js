@@ -1,8 +1,9 @@
 import Client from './client';
+import Service from './Service';
 
 const About = () => {
     return ( 
-        <div id='About' className="About p-3 mt-3 rounded-3 lay1 row ">
+        <div id='About' className="container About p-3 mt-3 rounded-3 lay1">
             <div><h2><span className="ct">About</span> Me</h2></div>
             <div className="mb-2">
                 <div className="pt-4"><b>Hello! I’m Donald Wellborn.</b> Web designer from USA, California. I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about our unique.</div>
@@ -26,29 +27,8 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="mt-5"><h2><span className="ct">My </span> <b>Services</b></h2></div>
-            <div className="mt-3 text-left">
-                <div className="mt-2">
-                    <div><i className="fa fa-code"></i></div>
-                    <p><b>Web Development</b></p>
-                    <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                </div>
-                <div className="mt-2">
-                    <div><i className="fa fa-money"></i></div>
-                    <p><b>Business Mentor</b></p>
-                    <p>Music copying, writing, creating, transcription, arranging and composition services.</p>
-                </div>
-                <div className="mt-2">
-                    <div><i className="fa fa-buysellads"></i></div>
-                    <p><b>Advertising</b></p>
-                    <p>Advertising services include television, radio, print, mail, and web apps</p>
-                </div>
-                <div className="mt-2">
-                    <div><i className="fa fa-gamepad"></i></div>
-                    <p><b>Game Development</b></p>
-                    <p>Developing memorable and unique mobile android, ios and video games.</p>
-                </div>
-            </div>
+            <div><Service /></div>
+
             <div><Client /></div>
         </div>
      );

@@ -1,26 +1,24 @@
 import './Navbar';
 import Navbar from './Navbar';
 import Me from './Me';
-import Media from './media';
 import About from './About';
-import Client from './client';
+import Works from './Works';
 
 function App() {
   return (
-    <div className="page row justify-content-center">
-      <div className='no-padding'>
+    <div className="page justify-content-center">
+      <div className='lay1'>
         <Navbar />
       </div>
-      <div className='page1 no-padding bg-white rounded-3 lay1'>
-          <div><Me /></div>     
-          <div><Media /></div>     
-        </div>
-      <div>
-        <div>
-          <div><About /></div>
-          <div><Client /></div>
-        </div>
+      <div className='page1 lay1'>
+         <Me />
       </div>
+      <div className='page2'>
+        
+        <div><About /></div>          
+        <div><Works /></div>
+      </div>
+      
     </div>
   );
 }

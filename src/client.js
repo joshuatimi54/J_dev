@@ -5,7 +5,7 @@ import Client3 from './image/client_4.png';
 
 const Clients = () => {
     return ( 
-        <div className="client mt-3">
+        <div className="client mt-3 mb-3">
             <div className="mt-5"><h2><span className="ct">C</span>lients</h2></div>
             <div className="clients d-flex row">
                 <div className='d-flex'>
