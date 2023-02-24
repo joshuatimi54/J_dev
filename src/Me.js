@@ -10,7 +10,7 @@ const Me = () => {
             <p>
                 <h1 id='name'>Adesoba Joshua</h1>
             </p>    
-            <div className="site text-center">
+            <div className="media text-center">
                 <ul className="d-flex">
                     
                     <li>
